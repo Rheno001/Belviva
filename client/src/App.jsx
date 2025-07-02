@@ -6,10 +6,12 @@ import SignUp from './pages/SignUp';
 import Dashboard from './pages/Dashboard';
 import Projects from './pages/Projects';
 import NotFound from './pages/NotFound';
+import Header from './components/Header';
 
 function App() {
   return (
     <BrowserRouter>
+    <Header/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -17,8 +19,6 @@ function App() {
         <Route path="/sign-up" element={<SignUp />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/projects" element={<Projects />} />
-        
-        {/* 👇 Catch-all route for 404 */}
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>
