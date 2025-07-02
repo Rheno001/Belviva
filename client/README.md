@@ -1,12 +1,45 @@
-# React + Vite
+# Belviva – Skincare Blog Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Belviva** is a modern skincare blog platform built with the **MERN stack** (MongoDB, Express.js, React.js, and Node.js). It serves as a content hub where the admin can post educational articles, share product highlights, and offer consultations to users interested in skincare tips and routines.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌿 Key Features
 
-## Expanding the ESLint configuration
+- Blog post creation, editing, and deletion (Admin only)
+- Rich text editing for articles
+- Responsive and clean UI/UX
+- Contact/consultation form
+- SEO-friendly routing
+- Secure authentication for admin access
+- Optimized for performance and accessibility
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 💻 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JWT (JSON Web Tokens)
+- **Deployment:** Vercel (Frontend), Render/Heroku (Backend), MongoDB Atlas (Database)
+
+---
+
+## 🎨 Design
+
+- **Primary Colors:**
+  - White (#FFFFFF)
+  - Tranquil Aqua (#7C9CA2)
+
+The UI is designed to reflect simplicity and calmness, aligning with the brand's skincare focus.
+
+---
+
+## 🚀 Setup Instructions
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/your-username/belviva.git
+   cd belviva
