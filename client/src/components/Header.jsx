@@ -16,7 +16,7 @@ function Header() {
     const path = useLocation().pathname;
     
     return (
-        <Navbar className="border-b-2 p-4 bg-red-500">
+        <Navbar color="none" className="border-b-2 p-4 bg-red-500">
             <NavbarBrand as={Link} to="/">
                 <span className="self-center text-white font-bold text-xl md:text-2xl bg-[#7C9CA2] rounded-lg p-2">
                     Belviva
@@ -40,7 +40,7 @@ function Header() {
                     <FaMoon className="m-auto" />
                 </Button>
                 <Link to="/sign-in">
-                    <Button color="none" className="bg-[#7C9CA2] text-white rounded-lg">
+                    <Button color="none" className="bg-[#7C9CA2] text-white rounded-lg hover:scale-105 ease-in-out cursor-pointer duration-200">
                         Sign In
                     </Button>
                 </Link>
